@@ -1,0 +1,11 @@
+config:
+  timezone: America/Sao_Paulo
+
+webhooks:
+  - path: /teste
+    parameters:
+      google_chat_webhook_url: https://chat.googleapis.com/v1/spaces/AAAAA/messages?key=BBBBB&token=CCCCC
+      quality_gate_status_filter: "success"
+  - path: /teste2
+    parameters:
+      google_chat_webhook_url: https://chat.googleapis.com/v1/spaces/DDDDD/messages?key=EEEEE&token=FFFFF
